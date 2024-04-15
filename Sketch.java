@@ -3,9 +3,7 @@ import java.util.Random;
 
 public class Sketch extends PApplet {
 	
-  /**
-   * Called once at the beginning of execution, put your size all in this method
-   */
+  
   public void settings() {
     size(600, 600);
   }
