@@ -85,7 +85,11 @@ public class Sketch extends PApplet {
     fill(colourR, colourG, colourB); 
     triangle(fishX + 10, fishY, fishX - 45, fishY - 35, fishX - 45, fishY + 35); 
 
-    //the body of the fish 
+    //body of the fish
+    fill(247, 235, 178);
+    ellipse(fishX, fishY, 50, 50); 
+
+    //fins
     fill(colourR, colourG, colourB); 
     beginShape(); 
     vertex(fishX - 5, fishY);
